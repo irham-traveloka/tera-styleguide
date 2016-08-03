@@ -1,0 +1,17 @@
+<article class="sg-component-block">
+  <div class="sg-component-block__text">
+    <h5 class="sg-component-block__title">{{ include.component_title }}</h5>
+  </div>
+  <div class="sg-component-block__showcase">
+    <div class="sg-component-block__container">
+      <div class="sg-component-block__display sg-half-width">
+        {% include {{ include.component_path }} %}
+      </div>
+    </div>
+    <div class="sg-component-block__code">
+      <pre><code class="language-markup"><script type="prism-html-markup">
+{% include components/forms/text-input-normal.html %}
+      </script></code></pre>
+    </div>
+  </div>
+</article>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.2 (29753) - http://www.bohemiancoding.com/sketch -->
+    <title>tera-check</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icons-colorless" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tera-check" fill="#000000">
+            <path d="M10,18.5 C9.61611652,18.5 9.23223305,18.3535534 8.93933983,18.0606602 L2.93933983,12.0606602 C2.35355339,11.4748737 2.35355339,10.5251263 2.93933983,9.93933983 C3.52512627,9.35355339 4.47487373,9.35355339 5.06066017,9.93933983 L10,14.8786797 L18.9393398,5.93933983 C19.5251263,5.35355339 20.4748737,5.35355339 21.0606602,5.93933983 C21.6464466,6.52512627 21.6464466,7.47487373 21.0606602,8.06066017 L11.0606602,18.0606602 C10.767767,18.3535534 10.3838835,18.5 10,18.5 L10,18.5 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

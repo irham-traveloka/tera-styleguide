@@ -1,0 +1,41 @@
+.sg-content-nav {
+	width: 200px;
+	background-color: #fff;
+	border: $border;
+	border-radius: $border-radius;
+}
+
+.sg-content-nav__header {
+	padding: $spacing-small $spacing-large;
+	color: $color-text-secondary;
+	font-weight: 500;
+	background-color: $color-background-page;
+	border-radius: $border-radius $border-radius 0 0;
+}
+
+.sg-content-nav__item {
+	position: relative;
+	display: block;
+	padding: $spacing-small $spacing-large;
+	color: $color-text-secondary;
+	font-weight: 400;
+	border-top: $border;
+	border-radius: 0 0 $border-radius $border-radius;
+
+	&:hover {
+		color: $color-text-primary;
+	}
+
+	&.is-active {
+		color: $color-text-primary;
+		font-weight: 500;
+		&:before {
+			content: '';
+			position: absolute;
+			left: -1px;
+			top: 0;
+			height: 100%;
+			border-left: 3px solid $color-primary;
+		}
+	}
+}

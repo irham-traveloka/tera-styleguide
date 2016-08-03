@@ -1,0 +1,17 @@
+.sg-content-divider {
+	margin-top: $spacing-xxx-large;
+	margin-bottom: $spacing-xxx-large;
+	border-top: 1px solid #ECEFF3;
+}
+
+.sg-half-width {
+	width: 50%;
+}
+
+.sg-testing {
+	display: none;
+	background-color: #fff;
+	border-radius: 3px;
+	position: absolute;
+	font-size: 13px;
+}

@@ -1,0 +1,41 @@
+.sg-aside-nav {
+	background-color: #fff;
+	border-radius: 3px;
+	box-shadow: 0 3px 10px 0 #CFD4DB;
+}
+
+.sg-aside-nav__header {
+	padding: 16px 20px;
+	font-weight: 700;
+	border-bottom: 1px solid #eee;
+	border-radius: 3px 3px 0 0;
+}
+
+.sg-aside-nav__item {
+	position: relative;
+	display: block;
+	padding: 16px 20px;
+	color: $color-text-secondary;
+	border-bottom: 1px solid #eee;
+	&:last-of-type {
+		border-bottom: 0;
+		border-bottom-left-radius: 3px;
+		border-bottom-right-radius: 3px;
+	}
+	&:hover {
+		cursor: pointer;
+		background-color: rgba(103,160,236,.1); 
+	}
+	&.is-active {
+		color: $color-text-primary;
+		background-color: rgba(103,160,236,.1); 
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			border-left: 3px solid #67A0EC;
+		}
+	}
+}

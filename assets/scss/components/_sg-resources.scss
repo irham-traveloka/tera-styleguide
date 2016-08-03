@@ -1,0 +1,39 @@
+.sg-resources {
+	box-shadow: 0 3px 10px 0 #CFD4DB;
+}
+.sg-resources-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	padding: 0 30px;
+	background-color: #fff;
+	border-top: 1px solid $color-border-secondary;
+	&:first-of-type {
+		border-top: 0;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+	}
+	&:last-of-type {
+		border-bottom-left-radius: 3px;
+		border-bottom-right-radius: 3px;
+	}
+}
+
+.sg-resources-item__icon {
+	flex-basis: 150px;
+	text-align: left;
+}
+.sg-resources-item__title {
+	flex-basis: 150px;
+}
+.sg-resources-item__update {
+	flex-basis: 250px;
+}
+.sg-resources-item__size {
+	flex-basis: 150px;
+}
+.sg-resources-item__action {
+	flex-basis: 150px;
+	text-align: right;
+}

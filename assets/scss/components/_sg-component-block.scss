@@ -1,0 +1,40 @@
+
+.sg-component-block {
+	margin-top: 60px;
+}
+
+.sg-component-block__text {
+	margin-bottom: $spacing-large;
+}
+
+.sg-component-block__title {
+	font-size: 15px;
+	margin-bottom: $spacing-x-small;
+}
+
+.sg-component-block__showcase {
+	border: $border;
+	border-radius: 3px;
+}
+
+.sg-component-block__container {
+	padding: 30px;
+	border-bottom: $border;
+}
+
+.sg-component-block__display {
+
+}
+
+.sg-component-block__code {
+	code[class*="language-"],
+	pre[class*="language-"] {
+		tab-size: 2;
+		font-size: 12px;
+	}
+	pre[class*="language-"] {
+		padding: 0 1.5rem;
+		margin: 0;
+		border-radius: 0 0 3px 3px;
+	}
+}

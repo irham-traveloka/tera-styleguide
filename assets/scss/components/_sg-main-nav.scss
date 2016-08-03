@@ -1,0 +1,38 @@
+.sg-main-nav {
+	border-top: 1px solid rgba(255,255,255,.2);
+}
+
+.sg-main-nav__item {
+	position: relative;
+	display: inline-block;
+	padding: 20px 0;
+	font-size: 15px;
+	font-weight: 400;
+	color: #fff;
+	margin-left: 55px;
+	&:first-of-type {
+		margin-left: 0;
+	}
+	&.is-active {
+		font-weight: 500;
+		&:before {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			border-top: 3px solid #2475D1;
+		}
+	}
+	&:hover {
+		cursor: pointer;
+		&:before {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			border-top: 3px solid #2475D1;
+		}
+	}
+}

@@ -1,0 +1,29 @@
+.sg-page {
+	min-height: 100vh;
+	background-color: #F2F4F7;
+}
+
+.sg-body {
+	padding: 60px 0;
+}
+
+.sg-container {
+	width: 1090px;
+	margin: 0 auto;
+}
+
+.sg-grid-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.sg-aside {
+	flex: 0 230px;
+}
+
+.sg-main {
+	flex-basis: 820px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-width: 820px;
+}
