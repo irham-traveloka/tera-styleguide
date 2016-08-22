@@ -1,6 +1,7 @@
 ---
 layout: ui-components
 title: "Text Input"
+sidenav: text-input
 permalink: "/ui-components/text-input/"
 ---
 
@@ -8,4 +9,33 @@ permalink: "/ui-components/text-input/"
   <h3 class="sg-main-content__title">Text Input</h3>
   <p class="text--secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima in, perspiciatis sed obcaecati deserunt voluptates dolor, quaerat dicta, laboriosam iure corporis cupiditate blanditiis itaque nobis amet rem, fuga suscipit! Saepe?</p>
 </div>
-{% include components/component-block.html component_title="Text Input Default" component_path="components/forms/text-input-normal.html" %}
+
+{% include components/component-block.html
+  title="Text Input Default"
+  path="components/text-input/text-input-normal.html"
+%}
+
+{% include components/component-block.html
+  title="Text Input Disabled"
+  path="components/text-input/text-input-disabled.html"
+%}
+
+{% include components/component-block.html
+  title="Text Input Error"
+  path="components/text-input/text-input-error.html"
+%}
+
+{% include components/component-block.html
+  title="Text Input Group"
+  path="components/text-input/text-input-group.html"
+%}
+
+{% include components/component-block.html
+  title="Text Input with Icon"
+  path="components/text-input/text-input-icon.html"
+%}
+
+{% include components/component-block.html
+  title="Textarea Input"
+  path="components/text-input/textarea.html"
+%}

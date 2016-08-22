@@ -1,0 +1,27 @@
+<a class="btn btn--primary" id="modalTrigger">Open modal</a>
+
+<div id="modalContent" class="is-hide">
+  <div class="modal-content" style="width: 450px;" data-modal-content>
+    <header class="modal-content__header" data-modal-header>
+      <h3 class="modal-content__heading">Are you sure you want to delete this policy?</h3>
+    </header>
+    <div class="modal-content__body" data-modal-body>
+      <div class="form-element">
+        <label for="" class="form-element__label">Full Name</label>
+        <div class="input">
+          <input type="text" class="form-control">
+        </div>
+      </div>
+      <div class="form-element">
+        <label for="" class="form-element__label">Last Name</label>
+        <div class="input">
+          <input type="text" class="form-control">
+        </div>
+      </div>
+    </div>
+    <footer class="modal-content__footer" data-modal-footer>
+      <a class="btn btn--cancel" id="cancelDelete" data-modal-close >Cancel</a>
+      <a class="btn btn--cta" id="deleteThisPolicy" data-modal-close>Submit</a>
+    </footer>
+  </div>
+</div>

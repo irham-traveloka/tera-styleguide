@@ -1,16 +1,16 @@
 <article class="sg-component-block">
   <div class="sg-component-block__text">
-    <h5 class="sg-component-block__title">{{ include.component_title }}</h5>
+    <h5 class="sg-component-block__title">{{ include.title }}</h5>
   </div>
   <div class="sg-component-block__showcase">
     <div class="sg-component-block__container">
-      <div class="sg-component-block__display sg-half-width">
-        {% include {{ include.component_path }} %}
+      <div class="sg-component-block__display">
+        {% include {{ include.path }} %}
       </div>
     </div>
-    <div class="sg-component-block__code">
+    <div class="sg-component-block__code sg-prism-code">
       <pre><code class="language-markup"><script type="prism-html-markup">
-{% include components/forms/text-input-normal.html %}
+{% include {{ include.path }} %}
       </script></code></pre>
     </div>
   </div>
